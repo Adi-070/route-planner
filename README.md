@@ -16,7 +16,7 @@ This project is built on the concept of Matrix Routing. It uses TomTom Map SDK f
 ![Screenshot 2023-07-18 024456](https://github.com/Adi-070/route-planner/assets/111191321/17256256-da3b-42f7-97b0-d9cefd95f9fb)
 
 
-___The Red icons denote the probability of traffic accidents at that particular area.___ 
+___The Red icons denote the probability of traffic accidents around that particular area.___ 
 
 ![Screenshot 2023-07-18 024516](https://github.com/Adi-070/route-planner/assets/111191321/3a89e411-cf95-4cd4-9174-ab4ab9f04e4f)
 
