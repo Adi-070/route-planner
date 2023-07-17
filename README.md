@@ -24,7 +24,7 @@ ___The green line shows the extent of traffic flow in that area.___
 
 ![Screenshot 2023-07-18 024719](https://github.com/Adi-070/route-planner/assets/111191321/03ecedf5-3e66-46cf-97e8-d515d2370aa8)
 
-___It uses a custom marker for pinpointing the current location and other delivery markers for calculating the shortest and safest route repitively.We can change the position of the draggable location marker and re-renders everytime with a pop-up message___
+___It uses a custom marker for pinpointing the current location and other delivery markers for calculating the shortest and safest route repitively. We can change the position of the draggable location marker and the map re-renders everytime with a pop-up message___
 
 ![Screenshot 2023-07-18 024816](https://github.com/Adi-070/route-planner/assets/111191321/c82ca236-906a-438a-9561-8851c8bceece)
 
