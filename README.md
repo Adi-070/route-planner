@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+## Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is built on the concept of Matrix Routing. It uses TomTom Map SDK for web and allows a person to determine the best possible route between two places considering 
 
-## Available Scripts
+    1) The route into account 
+    2) The traffic on the roads into account. 
+    3) The traffic incidents on the roads into account
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Sample images
 
-### `npm run build`
+![Screenshot 2023-07-18 024456](https://github.com/Adi-070/route-planner/assets/111191321/17256256-da3b-42f7-97b0-d9cefd95f9fb)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+___The Red icons denote the probability of traffic accidents at that particular area.___ 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot 2023-07-18 024516](https://github.com/Adi-070/route-planner/assets/111191321/3a89e411-cf95-4cd4-9174-ab4ab9f04e4f)
 
-### `npm run eject`
+___The green line shows the extent of traffic flow in that area.___
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screenshot 2023-07-18 024719](https://github.com/Adi-070/route-planner/assets/111191321/03ecedf5-3e66-46cf-97e8-d515d2370aa8)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+___It uses a custom marker for pinpointing the current location and other delivery markers for calculating the shortest and safest route repitively.We can change the position of the draggable location marker and re-renders everytime with a pop-up message___
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screenshot 2023-07-18 024816](https://github.com/Adi-070/route-planner/assets/111191321/c82ca236-906a-438a-9561-8851c8bceece)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+___Enter the latitudes and longitudes to change your location___
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
